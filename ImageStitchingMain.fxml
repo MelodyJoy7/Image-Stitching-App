@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onDragDetected="#ButtonOpenWindowAction" prefHeight="487.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="btnUpload" layoutX="53.0" layoutY="377.0" mnemonicParsing="false" onAction="#ButtonUploadAction" prefHeight="40.0" prefWidth="124.0" text="Load Images">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnStitch" layoutX="259.0" layoutY="377.0" mnemonicParsing="false" onAction="#ButtonStitchAction" prefHeight="40.0" prefWidth="124.0" text="Stitch Images">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ImageView fx:id="imageview" fitHeight="243.0" fitWidth="184.0" layoutX="124.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnprev" layoutX="53.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonPrevAction" prefHeight="40.0" prefWidth="40.0" text="&lt;" textAlignment="CENTER">
+         <font>
+            <Font name="Candara" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnnext" ellipsisString="&gt;" layoutX="343.0" layoutY="187.0" mnemonicParsing="false" onAction="#ButtonNextAction" prefHeight="41.0" prefWidth="40.0" text="&gt;" textAlignment="CENTER">
+         <font>
+            <Font name="Candara" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

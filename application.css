@@ -1,0 +1,7 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* Use id to change style */
+	
+/* Change Scene */
+.root {
+	-fx-background-color: lavender ;
+}
